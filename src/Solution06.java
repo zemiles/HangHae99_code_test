@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Solution6 {
+public class Solution06 {
     /*
     문제 설명
     자연수 N이 주어지면, N의 각 자릿수의 합을 구해서 return 하는 solution 함수를 만들어 주세요.
@@ -26,6 +26,7 @@ public class Solution6 {
 
         for (int i = 0; i < str.length(); i++) {
             answer += Integer.parseInt(str.substring(i, i+1)); //String substring(int a, int b) a부터 b직전까지의 문자열
+
         }
         return answer;
     }
@@ -36,6 +37,12 @@ public class Solution6 {
         while (true) {
             System.out.print("정수 입력: ");
             int n = sc.nextInt();
+
+            Solution06 sol = new Solution06();
+            int answer = sol.solution(n);
+
+            System.out.println("결과: " + answer);
+            System.out.println("------------------------");
         }
     }
 }
