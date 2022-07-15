@@ -46,7 +46,7 @@ public class code_test02 {
 
     public static void main(String[] args) {
         code_test02 code = new code_test02();
-        String test = "Hello word";
+        String test = "Hello world";
         System.out.println(code.sol(test));
     }
 
