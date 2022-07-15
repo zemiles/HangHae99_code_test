@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Solution {
+public class Solution03 {
     /*
     길이가 n이고, "수박수박수박수...."와 같은 패턴을 유지하는 문자열을 리턴하는 함수, solution을 완성하세요.
     예를들어 n이 4이면 "수박수박"을 리턴하고 3이라면 "수박수"를 리턴하면 됩니다.
@@ -31,10 +31,12 @@ public class Solution {
         while (true) {
             System.out.print("숫자 입력 ('0': 종료) >> ");
             int n = sc.nextInt();
+
             if (n == 0) {
                 break;
             }
-            Solution sol = new Solution();
+
+            Solution03 sol = new Solution03();
             String answer = sol.solution(n);
 
             System.out.println(answer);
