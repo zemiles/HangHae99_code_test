@@ -8,7 +8,7 @@ import java.util.Locale;
 // 각 단어의 짝수번째 알파벳은 대문자로,
 // 홀수번째 알파벳은 소문자로 바꾼 문자열을 리턴하는 함수, solution을 완성하세요.
 
-public class code_test02 {
+public class Solution05 {
 // 접근 방식
 //
 
@@ -45,7 +45,7 @@ public class code_test02 {
         }
 
     public static void main(String[] args) {
-        code_test02 code = new code_test02();
+        Solution05 code = new Solution05();
         String test = "Hello world";
         System.out.println(code.sol(test));
     }
