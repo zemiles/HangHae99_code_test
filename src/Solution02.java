@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class code_test01 {
+public class Solution02 {
     public int[] divisible(int[] arr, int divisor) {
         //count변수 선언
         int count = 0;
@@ -42,7 +42,7 @@ public class code_test01 {
 
        // int[] an = solution();
        public static void main(String[] args) {
-           code_test01 div = new code_test01();
+           Solution02 div = new Solution02();
            int[] array = {5, 9, 7, 10};
            int[] array2 = {2, 36, 1, 3};
            int[] array3 = {3,2,6};
