@@ -64,7 +64,7 @@ public class Solution12 {
     }
 
     public static void main(String[] args) {
-        MySolution sol = new MySolution();
+        Solution12 sol = new Solution12();
         Scanner sc = new Scanner(System.in);
 
         while (true) {
