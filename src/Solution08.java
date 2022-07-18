@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 
-public class code_test03 {
+public class Solution08 {
 
     //문제 정수 내림차순으로 배치하기
     //함수 solution은 정수 n을 매개변수로 입력받습니다. 
@@ -39,7 +39,7 @@ public class code_test03 {
         return answer;
     }
     public static void main(String[] args) {
-        code_test03 t = new code_test03();
+        Solution08 t = new Solution08();
         System.out.println(t.solution(45411841));
     }
 }
