@@ -1,6 +1,4 @@
-package hanghae99code;
-
-public class soluution03 {
+public class Solution23 {
     public String solution(String s, int n) {
         String answer = "";
 
@@ -29,7 +27,7 @@ public class soluution03 {
     }
 
     public static void main(String[] args) {
-        soluution03 st = new soluution03();
+        Solution23 st = new Solution23();
 
 
 
