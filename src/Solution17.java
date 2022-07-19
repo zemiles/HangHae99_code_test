@@ -1,8 +1,6 @@
-package hanghae99code;
-
 import java.util.*;
 
-public class soluution01 {
+public class Solution17 {
 
     public int[] solution(int[] lottos, int[] win_nums) {
         //스플릿 함수로 하나씩 넣는다
@@ -80,7 +78,7 @@ public class soluution01 {
 
     public static void main(String[] args) {
 
-        soluution01 st = new soluution01();
+        Solution17 st = new Solution17();
         int[] lottos1 = new int[] {44, 1, 0, 0, 31, 25};
         int[] lottos2 = new int[] {0, 0, 0, 0, 0, 0};
         int[] lottos3 = new int[] {45, 4, 35, 20, 3, 9};
