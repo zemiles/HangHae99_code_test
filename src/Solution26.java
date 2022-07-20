@@ -1,6 +1,6 @@
 package hanghae99code;
 
-public class soluution04 {
+public class Solution26 {
     public int solution(int n) {
         int answer = 0;
 
@@ -14,7 +14,7 @@ public class soluution04 {
     }
 
     public static void main(String[] args) {
-        soluution04 st = new soluution04();
+        Solution26 st = new Solution26();
         System.out.println(st.solution(12));
     }
 }
